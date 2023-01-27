@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import re
 
-#for song lyrics
 text = "[Verse 1] some lyrics"
 
 match = re.search(r"\[Verse (\d)\] (.*)", text)
